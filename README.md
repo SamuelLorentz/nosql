@@ -8,3 +8,8 @@
 
 - [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
 
+    docker pull mongo
+
+    docker run -d --name mongodb-instance -p 27017:27017 mongo
+  
+    ./gradlew run

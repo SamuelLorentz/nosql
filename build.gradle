@@ -30,6 +30,13 @@ dependencies {
     implementation("io.micronaut.mongodb:micronaut-mongo-sync")
     runtimeOnly("ch.qos.logback:logback-classic")
     testImplementation("de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.0.1")
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 }
 
 
